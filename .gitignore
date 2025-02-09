@@ -1,0 +1,31 @@
+# Backup files
+*~
+*.swp
+*.swo
+*.swn
+
+# Neovim session files
+Session.vim
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+*.tmp
+
+# Cache files
+cache/
+*.cache
+
+# Plugin manager directories (if using packer.nvim)
+packer_compiled.lua
+
+# Specific to Lua
+*.luac
+
+# Ignore specific configuration files (if any)
+# For example, if you have a secrets file
+secrets.lua
+
+# Ignore any other files or directories you don't want to track
