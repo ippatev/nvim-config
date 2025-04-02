@@ -3,3 +3,4 @@
 -- Add any additional options here
 vim.g.autoformat = false
 vim.opt.clipboard = 'unnamedplus'
+vim.g.lazyvim_prettier_needs_config = false
