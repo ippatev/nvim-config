@@ -1,11 +1,11 @@
 return {
   -- { "ellisonleao/gruvbox.nvim" },
-  -- {"vague2k/vague.nvim"},
-  { "miikanissi/modus-themes.nvim", priority = 1000 },
+  -- { "miikanissi/modus-themes.nvim", priority = 1000 },
+  {"vague2k/vague.nvim"},
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "modus",
+      colorscheme = "vague",
     },
   },
 }
