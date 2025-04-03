@@ -8,5 +8,5 @@ require("sg").setup({
     preload_files = false,
   },
   endpoint = "https://sourcegraph.com",
-  token = "sgp_fd1b4edb60bf82b8_43181da1aaa4ca815d59ef68f97372cd65e857b0",
+  token = os.getenv("SOURCEGRAPH_TOKEN"),
 })
