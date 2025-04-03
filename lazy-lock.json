@@ -28,7 +28,6 @@
   "mini.move": { "branch": "main", "commit": "4fe4a855fee53c66b0f3255a4b54ddc2ae6b308c" },
   "mini.pairs": { "branch": "main", "commit": "69864a2efb36c030877421634487fd90db1e4298" },
   "mini.snippets": { "branch": "main", "commit": "e05106957fc178285dbc510ff833985da59d3e5a" },
-  "modus-themes.nvim": { "branch": "master", "commit": "b6c46f8066b2d96cb75d5bc7202a9a4c097b5e9f" },
   "neo-tree.nvim": { "branch": "main", "commit": "69f798bf9493b84df660ac3c6b2fc03e23956d25" },
   "noice.nvim": { "branch": "main", "commit": "0427460c2d7f673ad60eb02b35f5e9926cf67c59" },
   "nui.nvim": { "branch": "main", "commit": "8d3bce9764e627b62b07424e0df77f680d47ffdb" },
@@ -53,6 +52,7 @@
   "tokyonight.nvim": { "branch": "main", "commit": "057ef5d260c1931f1dffd0f052c685dcd14100a3" },
   "trouble.nvim": { "branch": "main", "commit": "85bedb7eb7fa331a2ccbecb9202d8abba64d37b3" },
   "ts-comments.nvim": { "branch": "main", "commit": "1bd9d0ba1d8b336c3db50692ffd0955fe1bb9f0c" },
+  "vague.nvim": { "branch": "main", "commit": "982453f671332ce0240a15be5eb223d32f877e06" },
   "venv-selector.nvim": { "branch": "regexp", "commit": "c677caa1030808a9f90092e522de7cc20c1390dd" },
   "which-key.nvim": { "branch": "main", "commit": "370ec46f710e058c9c1646273e6b225acf47cbed" }
 }
