@@ -30,7 +30,7 @@
   "mini.pairs": { "branch": "main", "commit": "42407ccb80ec59c84e7c91d815f42ed90a8cc093" },
   "mini.snippets": { "branch": "main", "commit": "27184798d8fa8aa190cad7004c314a0dc28f0e57" },
   "modus-themes.nvim": { "branch": "master", "commit": "61b8c10ec636f42baf6c845edb14b9ae2723711f" },
-  "neo-tree.nvim": { "branch": "main", "commit": "7c9c5b2fadcac4edd9f89f38cbff13ae838cc330" },
+  "neo-tree.nvim": { "branch": "main", "commit": "84c3df0aa276da7f6095b000de314986f7b5ac98" },
   "noice.nvim": { "branch": "main", "commit": "0427460c2d7f673ad60eb02b35f5e9926cf67c59" },
   "nui.nvim": { "branch": "main", "commit": "de740991c12411b663994b2860f1a4fd0937c130" },
   "nvim-cmp": { "branch": "main", "commit": "b5311ab3ed9c846b585c0c15b7559be131ec4be9" },
