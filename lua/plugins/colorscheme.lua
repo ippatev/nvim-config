@@ -9,11 +9,18 @@ return {
   --     colorscheme = "modus",
   --   },
   -- },
+  -- {
+  --   "adibhanna/forest-night.nvim",
+  --   priority = 1000,
+  --   config = function()
+  --     vim.cmd([[colorscheme forest-night]])
+  --   end,
+  -- },
   {
-    "adibhanna/forest-night.nvim",
+    "bettervim/yugen.nvim",
     priority = 1000,
     config = function()
-      vim.cmd([[colorscheme forest-night]])
+      vim.cmd([[colorscheme yugen]])
     end,
   },
 }
