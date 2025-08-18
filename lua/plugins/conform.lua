@@ -1,3 +1,5 @@
+local is_windows = vim.fn.has("win32") == 1
+
 return {
   "stevearc/conform.nvim",
   opts = {
@@ -12,10 +14,12 @@ return {
     },
     formatters = {
       prettierd = {
-        command = vim.fn.expand("$LocalAppData\\nvim-data\\mason\\bin\\prettierd.cmd"),
+        command = is_windows and vim.fn.expand("$LocalAppData\\nvim-data\\mason\\bin\\prettierd.cmd")
+          or "~/.local/share/nvim/mason/bin/prettierd",
       },
       stylua = {
-        command = vim.fn.expand("$LocalAppData\\nvim-data\\mason\\bin\\stylua.cmd"),
+        command = is_windows and vim.fn.expand("$LocalAppData\\nvim-data\\mason\\bin\\stylua.cmd")
+          or "~/.local/share/nvim/mason/bin/stylua",
       },
     },
   },
